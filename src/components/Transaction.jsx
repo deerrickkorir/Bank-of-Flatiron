@@ -2,9 +2,9 @@ import React from "react";
 import Transaction from "./Transaction";
 
 function TransactionsList({ transactions }) {
-  // Check if transactions is undefined or null
-  if (!transactions) {
-    // Return null or fallback UI if transactions is undefined or null
+  // Check if transactions is undefined, null, or not an array
+  if (!Array.isArray(transactions) || transactions.length === 0) {
+    // Return null or fallback UI if transactions is undefined, null, or empty
     return null; // or return some fallback UI
   }
 

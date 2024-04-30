@@ -1,54 +1,73 @@
-import React, { useState, useEffect } from "react";
-import Transaction from "./Transaction";
-import data from "./db.json"; // Import the JSON data
+import React from "react";
+
 
 function TransactionsList() {
-  const [transactions, setTransactions] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
-
-  useEffect(() => {
-    setTransactions(data.transactions);
-  }, []);
-
-  const filteredTransactions = transactions.filter((transaction) =>
-    transaction.description.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // Your transactions data
+  const transactions = [
+    {
+      "id": 3,
+      "date": "2012-06-04",
+      "description": "car hire",
+      "category": "vehicles",
+      "amount": -2255
+    },
+    {
+      "id": 7,
+      "date": "2023-12-07",
+      "description": "Marketing",
+      "category": "Per Item",
+      "amount": 200
+    },
+    {
+      "id": 8,
+      "date": "2020-11-30",
+      "description": "Labour",
+      "category": "construction",
+      "amount": 3000
+    },
+    {
+      "id": 9,
+      "date": "2012-12-11",
+      "description": "management",
+      "category": "daily earning",
+      "amount": 10000
+    },
+    {
+      "id": 11,
+      "date": "2009-05-18",
+      "description": "Air bnb",
+      "category": "appartments",
+      "amount": 116
+    },
+    {
+      "id": 12,
+      "date": "2007-10-11",
+      "description": "accesories",
+      "category": "industrial",
+      "amount": 2000
+    }
+  ];
 
   return (
     <div>
-      <div className="ui large fluid icon input">
-        <input
-          type="text"
-          placeholder="Search your Recent Transactions"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-        <i className="circular search link icon"></i>
-      </div>
-      <table className="ui celled striped padded table">
-        <tbody>
+      <h3>Transactions List</h3>
+      <table className="ui celled table">
+        <thead>
           <tr>
-            <th>
-              <h3 className="ui center aligned header">Date</h3>
-            </th>
-            <th>
-              <h3 className="ui center aligned header">Description</h3>
-            </th>
-            <th>
-              <h3 className="ui center aligned header">Category</h3>
-            </th>
-            <th>
-              <h3 className="ui center aligned header">Amount</h3>
-            </th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Amount</th>
           </tr>
-          {filteredTransactions.map((transaction) => (
-            <Transaction
-              key={transaction.id}
-              date={transaction.date}
-              description={transaction.description}
-              category={transaction.category}
-              amount={transaction.amount}
-            />
+        </thead>
+        <tbody>
+          {transactions.map((transaction, index) => (
+            <tr key={transaction.id} className={index % 2 === 0 ? "even" : "odd"}>
+              <td>{transaction.date}</td>
+              <td>{transaction.description}</td>
+              <td>{transaction.category}</td>
+              <td>{transaction.amount}</td>
+            </tr>
           ))}
         </tbody>
       </table>

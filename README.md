@@ -21,10 +21,10 @@ The app uses Semantic UI for styling. If you see any unfamiliar classNames on so
 
 If you are unfamiliar with HTML tables, take a look at the docs with an example here
 
-Endpoints
+##Endpoints
 The base URL for your backend is: http://localhost:8001
 
-Core Deliverables
+##Core Deliverables
 As a user, I should be able to:
 
 See a table of the transactions.
