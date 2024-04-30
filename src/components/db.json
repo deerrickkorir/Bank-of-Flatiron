@@ -1,0 +1,92 @@
+
+  {
+      "transactions": [
+        {
+          "id": 1,
+          "date": "2022-11-04",
+          "description": "payment to works ",
+          "category": "salary",
+          "amount": 1000
+        },
+        {
+          "id": 2,
+          "date": "2022-12-01",
+          "description": "KFC",
+          "category": "Food",
+          "amount": -1055
+        },
+        {
+          "id": 3,
+          "date": "2012-06-04",
+          "description": "fuel",
+          "category": "car",
+          "amount": -2255
+        },
+        {
+          "id": 4,
+          "date": "2024-12-04",
+          "description": "clothes",
+          "category": "Fashion",
+          "amount": 2499
+        },
+        {
+          "id": 5,
+          "date": "2024-12-06",
+          "description": "Pizza inn",
+          "category": "Food",
+          "amount": 8.75
+        },
+        {
+          "id": 6,
+          "date": "2024-12-06",
+          "description": "Chips and fish",
+          "category": "Food",
+          "amount": 1759
+        },
+        {
+          "id": 7,
+          "date": "2012-12-07",
+          "description": "Birthday",
+          "category": "Gift",
+          "amount": 500
+        },
+        {
+          "id": 8,
+          "date": "2019-12-09",
+          "description": "Lyft Ride",
+          "category": "Transportation",
+          "amount": 1325
+        },
+        {
+          "id": 9,
+          "date": "2024-12-11",
+          "description": "Paycheck ",
+          "category": "Income",
+          "amount": 1000
+        },
+        {
+          "id": 11,
+          "date": "2014-12-16",
+          "description": "Matatu",
+          "category": "Transportation",
+          "amount": 11639
+        },
+        {
+          "id": 12,
+          "date": "2024-12-17",
+          "description": "Rent",
+          "category": "Housing",
+          "amount": 97500
+        },
+        {
+          "date": "",
+          "description": "",
+          "category": "njrfncjc",
+          "amount": "",
+          "id": 14
+        }
+  
+      ]
+    }
+  
+  

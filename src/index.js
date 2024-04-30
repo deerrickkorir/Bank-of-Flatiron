@@ -1,7 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import { createRoot } from 'react-dom/client';
 import "semantic-ui-css/semantic.min.css";
 import "./index.css";
+import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// Create root and render your root component
+createRoot(document.getElementById('root')).render(<App />);

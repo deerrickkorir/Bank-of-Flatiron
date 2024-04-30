@@ -1,5 +1,7 @@
 import React from "react";
 import AccountContainer from "./AccountContainer";
+import 'semantic-ui-css/semantic.min.css';
+
 
 function App() {
   return (
