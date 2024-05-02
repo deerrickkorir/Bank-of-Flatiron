@@ -10,7 +10,7 @@ For this project, you’ll be building out a React application that displays a l
 Part of what this code challenge is testing is your ability to follow given instructions. While you will definitely have a significant amount of freedom in how you implement the features, be sure to carefully read the directions for setting up the application.
 
 Setup
-After unbundling the project:
+After unbundling the project:https://bank-of-flatiron-e7o87bc36-derrick-korirs-projects.vercel.app/
 
 Run npm install in your terminal.
 Run npm run server. This will run your backend on port 8001.
@@ -21,10 +21,10 @@ The app uses Semantic UI for styling. If you see any unfamiliar classNames on so
 
 If you are unfamiliar with HTML tables, take a look at the docs with an example here
 
-##Endpoints
-The base URL for your backend is: http://localhost:8001
+## Endpoints
+The base URL for your backend is [click here]
 
-##Core Deliverables
+## Core Deliverables
 As a user, I should be able to:
 
 See a table of the transactions.

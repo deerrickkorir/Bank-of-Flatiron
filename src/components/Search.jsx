@@ -1,5 +1,4 @@
 import React from "react";
-import Search from "./Search";
 
 function Search() {
   return (
@@ -16,17 +15,4 @@ function Search() {
   );
 }
 
-// Search.js
-
-import React from "react";
-
-function Search() {
-  return (
-    <div>
-      {/* Your search component content */}
-    </div>
-  );
-}
-
 export default Search;
-
