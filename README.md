@@ -1,10 +1,10 @@
 
-## Date, 1/04/2024
+## Date, 1//2024
 By Derrick Korir Kiptoo
 ## Description
 This webpage displays the codes for the project .
 
-Date, 11/04/2024
+## Date, 1/05/2024
 By Derrick Korir Kiptoo
 ## Description
 This webpage displays several text displaying and descibing things about it .
@@ -40,7 +40,7 @@ Git
 git clone git@github.com:deerrickkorir/SA.02-WK2-Code-Challenge.git
 
 ## Live Link
-[GitHub Pages](gh-pages link)
+https://bank-of-flatiron--two.vercel.app
 
 ## Technologies Used
 JavaScript
